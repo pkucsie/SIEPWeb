@@ -1,3 +1,46 @@
-.navbar {
-  background: rgb(121, 242, 157);
+.header {
+  background: #24418c;
+  width: 100%;
+  .navbar {
+    min-height: 50px;
+    margin: 0;
+  }
+}
+
+.main {
+  width: 1180px;
+  margin: 0 auto;
+  overflow: hidden;
+  &::before {
+    box-sizing: border-box;
+  }
+  &::after {
+    box-sizing: border-box;
+  }
+  .navbarheader {
+    float: left;
+  }
+  .mainmenu {
+    float: right;
+    overflow: hidden;
+  }
+}
+
+.li {
+  float: left;
+  list-style-type: none;
+  a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    display: block;
+    font-size: 15px;
+    color: #fff;
+    &:link {
+      color: #ffffff;
+    }
+    &:hover {
+      background: #333366;
+    }
+  }
 }
