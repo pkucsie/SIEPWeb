@@ -1,6 +1,6 @@
 import styles from './index.less';
 
-export default function Main() {
+export default function BoxGroup1() {
   return (
       <div className={styles.box_group}>
         <div className={styles.plugin_timer}>
