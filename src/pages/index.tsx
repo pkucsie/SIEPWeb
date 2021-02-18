@@ -3,6 +3,7 @@ import styles from './index.less';
 import Banner from './banner';
 import BoxGroup1 from './boxgroup1/index';
 import BoxGroup2 from './boxgroup2/index';
+import BoxGroup3 from './boxgroup3/index';
 
 export default function IndexPage() {
   return (
@@ -11,6 +12,7 @@ export default function IndexPage() {
       <Banner />
       <BoxGroup1 />
       <BoxGroup2 />
+      <BoxGroup3 />
     </div>
   );
 }
