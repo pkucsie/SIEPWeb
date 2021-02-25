@@ -1,0 +1,108 @@
+.box_group {
+  color: #fafafa;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: justify;
+  .box {
+    padding: 30px 0;
+    .main {
+      width: 1180px;
+      margin: 0 auto;
+      overflow: hidden;
+      .box_slice {
+        .htitle {
+          font-size: 32px;
+          line-height: 32px;
+          margin: 0 0 40px 0;
+          text-align: center;
+          color: #ffffff;
+          .title {
+            height: auto;
+            border-bottom: 0;
+            display: inline;
+            color: #ffffff;
+            b {
+              font-weight: bold;
+            }
+          }
+        }
+        .box_content {
+          .box_style {
+            .box_contact {
+              .contact {
+                color: #1f295e;
+                display: block;
+                font-size: 1.17em;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+              }
+              .box_plugin {
+                overflow: hidden;
+                &::before {
+                  display: table;
+                  content: '';
+                }
+                &::after {
+                  clear: both;
+                }
+                ul {
+                  margin-left: -1%;
+                  margin-right: -1%;
+                  overflow: hidden;
+                  li {
+                    width: 23%;
+                    float: left;
+                    margin: 0 1%;
+                    list-style-position: outside;
+                    list-style-type: none;
+                    font-size: 16px;
+                    box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+                    border-radius: 6px;
+                    background: rgba(255, 255, 255, 0.1);
+                    padding: 0 0 10px 0;
+                    .title {
+                      text-align: center;
+                      font-size: 19px;
+                      padding: 0;
+                      line-height: 60px;
+                      margin: 1px 0;
+                      &::after {
+                        content: '';
+                        width: 20px;
+                        height: 3px;
+                        background: #0375f6;
+                        margin: 0px auto 20px auto;
+                        display: block;
+                      }
+                    }
+                    .people {
+                      font-size: 15px;
+                      margin-bottom: 8px;
+                      line-height: 30px;
+                      margin: 1px 0;
+                      padding: 0px 25px;
+                    }
+                    .tel {
+                      font-size: 13px;
+                      line-height: 30px;
+                      margin: 1px 0;
+                      padding: 0px 25px;
+                    }
+                    .email {
+                      font-size: 13px;
+                      line-height: 30px;
+                      margin: 1px 0;
+                      padding: 0px 25px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
