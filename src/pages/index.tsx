@@ -9,6 +9,7 @@ import BoxGroup5 from './boxgroup5/index';
 import BoxGroup6 from './boxgroup6/index';
 import BoxGroup7 from './boxgroup7/index';
 import BoxGroup8 from './boxgroup8/index';
+import BoxGroup9 from './boxgroup9/index';
 
 export default function IndexPage() {
   return (
@@ -23,6 +24,7 @@ export default function IndexPage() {
       <BoxGroup6 />
       <BoxGroup7 />
       <BoxGroup8 />
+      <BoxGroup9 />
     </div>
   );
 }
